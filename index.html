@@ -171,60 +171,61 @@
             </div>
          </section>
          <!-- Latest Portfolio Section -->
-          <section class="my-20">
+          <section class="py-20 bg-slate-100 px-4">
             <div class="container mx-auto">
-                <div class="flex justify-center items-center flex-col space-y-4 text-center">
+                <div class="flex justify-center items-center flex-col space-y-4 text-center mb-12">
                     <button class="flex justify-center items-center rounded-full px-2 py-1 text-sm bg-white"><img class="w-3 mr-2" src="./assets/right-arrow.png" alt="">How we works</button>
                     <h2 class="text-3xl font-extrabold">Our Latest Portfolio</h2>
                     <p class="w-2/3 opacity-80">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
                 </div>
-                <div class="col-span-1 p-4">
-                    <div class="grid grid-rows-2 gap-4">
-                        <div class="grid grid-cols-12 gap-4">
-                          <div class="col-span-8 border border-slate-100 rounded-lg flex justify-center p-2 gap-4">
-                            <div class="w-full">
-                                <img src="./assets/img1.png" alt="">
-                            </div>
-                            <div class="space-y-1">
-                                <h4 class="text-lg font-extrabold">Commercial</h4>
-                                <p class="text-sm opacity-80">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
-                                <button class="flex justify-center items-center rounded-full px-2 py-1 text-sm bg-white font-extrabold">View Details<div class="bg-lime-300 p-2 rounded-full mr-1 ml-2">
-                                    <img class="w-3" src="./assets/up-right-arrow.png" alt=""></div></button>
-                            </div>
-                          </div>
-                          <div class="col-span-4">
-                            <div class="p-4 border border-slate-100 rounded-lg">
-                                <img src="./assets/img2.png" alt="">
-                            </div>
-                          </div>
+                <div class="grid grid-cols-1 gap-4 md:grid-cols-12">
+                    <!-- First Row -->
+                    <div class="col-span-12 grid grid-cols-1 md:grid-cols-12 gap-4">
+                      <!-- First Column (8-span) -->
+                      <div class="col-span-12 md:col-span-8 flex flex-col md:flex-row items-center md:space-x-4 space-y-4 md:space-y-0 rounded-lg bg-white">
+                        <img class="p-4 w-full" src="./assets/img1.png" alt="Image 1" class="w-full md:w-1/2">
+                        <div class="space-y-1 w-full p-4 ">
+                            <h4 class="text-lg font-extrabold">Commercial</h4>
+                            <p class="text-sm opacity-80">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                            <button class="flex justify-center items-center rounded-full px-2 py-1 text-sm bg-white font-extrabold">View Details<div class="bg-lime-300 p-2 rounded-full mr-1 ml-2">
+                                <img class="w-3" src="./assets/up-right-arrow.png" alt=""></div></button>
                         </div>
-                      
-                        <div class="grid grid-cols-12 gap-4">
-                          <div class="col-span-3">
-                            <div class="p-4 border border-slate-100 rounded-lg">
-                                <img src="./assets/img3.png" alt="">
-                            </div>
-                          </div>
-                          <div class="col-span-6 border border-slate-100 rounded-lg flex justify-center p-2 gap-4">
-                            <div class="flex-1 w-full">
-                                <img src="./assets/img4.png" alt="">
-                            </div>
-                            <div class="space-y-1 flex-1">
-                                <h4 class="text-lg font-extrabold">Commercial</h4>
-                                <p class="text-sm opacity-80">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
-                                <button class="flex justify-center items-center rounded-full px-2 py-1 text-sm bg-white font-extrabold">View Details<div class="bg-lime-300 p-2 rounded-full mr-1 ml-2">
-                                    <img class="w-3" src="./assets/up-right-arrow.png" alt=""></div></button>
-                            </div>
-                          </div>
-                          <div class="col-span-3">
-                            <div class="p-4 border border-slate-100 rounded-lg">
-                                <img src="./assets/img5.png" alt="">
-                            </div>
-                          </div>
+                      </div>
+                      <!-- Second Column (4-span) -->
+                      <div class="col-span-12 md:col-span-4 bg-white rounded-lg">
+                        <img class="p-4 w-full" src="./assets/img2.png" alt="Image 2" class="w-full">
+                      </div>
+                    </div>
+                  
+                    <!-- Second Row -->
+                    <div class="col-span-12 grid grid-cols-1 md:grid-cols-12 gap-4">
+                      <!-- First Column (3-span) -->
+                      <div class="col-span-12 md:col-span-3 bg-white rounded-lg">
+                        <img class="p-4 w-full" src="./assets/img3.png" alt="Image 3" class="w-full">
+                      </div>
+                      <!-- Second Column (6-span) -->
+                      <div class="col-span-12 md:col-span-6 flex flex-col md:flex-row items-center md:space-x-4 space-y-4 md:space-y-0 bg-white rounded-lg">
+                        <img class="p-4" src="./assets/img4.png" alt="Image 4" class="w-full md:w-1/2">
+                        <div class="space-y-1 w-full flex-grow p-4">
+                            <h4 class="text-lg font-extrabold">Commercial</h4>
+                            <p class="text-sm opacity-80">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                            <button class="flex justify-center items-center rounded-full px-2 py-1 text-sm bg-white font-extrabold">View Details<div class="bg-lime-300 p-2 rounded-full mr-1 ml-2">
+                                <img class="w-3" src="./assets/up-right-arrow.png" alt=""></div></button>
                         </div>
-                </div>
-            </div>
+                      </div>
+                      <!-- Third Column (3-span) -->
+                      <div class="col-span-12 md:col-span-3 bg-white rounded-lg">
+                        <img class="p-4 w-full" src="./assets/img5.png" alt="Image 5" class="w-full">
+                      </div>
+                    </div>
+                  </div>
+                  
+            </div> 
+
+            
           </section>
+
+
           <!-- Let's discuss next project section -->
            <section class="py-20 paper-background">
             <div class="container mx-auto px-2">
